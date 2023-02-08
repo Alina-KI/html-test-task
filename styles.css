@@ -1,0 +1,136 @@
+.page {
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    background: #D3EDFC;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 260px;
+    min-height: 1410px;
+}
+
+.content {
+    background: #EEEEEE;
+    width: 100%;
+}
+
+.content-tab {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 30px 20px;
+}
+
+.content-tab-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.element-block {
+    width: 100%;
+    height: 30px;
+    background: #B0AFAF;
+    border-radius: 4px;
+}
+
+.more-products {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 20px;
+    gap: 30px;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.more-products-text {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    height: 250px;
+}
+
+.carousel-block {
+    width: 250px;
+    height: 250px;
+    background: #D3EDFC;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.radio {
+
+}
+
+input:checked .tab{
+    background: #EEEEEE;
+}
+
+.navbar {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    min-width: 350px;
+    max-width: 350px;
+    height: 770px;
+}
+
+.navbar-header {
+    position: absolute;
+    top: -240px;
+    width: 350px;
+    height: 200px;
+    background: #FAE205;
+    border-radius: 8px 8px 0 0;
+}
+
+.navbar-line {
+    position: absolute;
+    top: -40px;
+    width: 350px;
+    height: 40px;
+    background: #B0AFAF;
+}
+
+.footer {
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 24px;
+    line-height: 29px;
+}
